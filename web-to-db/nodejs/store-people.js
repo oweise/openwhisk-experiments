@@ -12,11 +12,11 @@ async function storeDoc(doc) {
   return doc;
 }
 
-async function main(args) {
+function main(args) {
   var doc = {
     name: args.name.last + ", " + args.name.first
   }
-  var returnedDoc = await storeDoc(doc)
+  storeDoc(doc)
   .then(
     function(result){return {body: result}},
     function(err){
