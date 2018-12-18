@@ -1,0 +1,18 @@
+packages:
+  web-action-sequence:
+    version: 1.0
+    license: Apache-2.0
+    actions:
+      find-people:
+        function: find-people.zip
+        runtime: 'nodejs:8'
+        inputs:
+          first: string
+          last: string
+      store-people:
+        function: store-people.zip
+        runtime: 'nodejs:8'
+    sequences:
+      find-and-store-people:
+        actions: find-people, store-people
+        web: yes

@@ -5,26 +5,30 @@ async function getClient(uri) {
   return await mongodb.MongoClient.connect(uri, {useNewUrlParser: true});
 }
 
-async function storeDoc(doc) {
+async function loadDoc(last, first) {
   const client = await getClient(mongo_uri);
   const db = await client.db('users');
-  const docs = await db.collection('stored').insertOne(doc);
-  return doc;
+  return await db.collection('users').findOne({
+    "$and": [
+      {"name.last":last},
+      {"name.first": first}
+    ]
+  });
 }
 
 function main(args) {
-  console.log(args)
-  var doc = {
-    name: args.name.last + ", " + args.name.first
-  }
-  return storeDoc(doc)
-  .then(
-    function(result){return {body: result}},
-    function(err){
-      console.error(err);
+  return loadDoc(args.last, args.first)
+    .then(function(result) {
+        if (result != null) {
+          return result;
+        }
+        else {
+          throw {msg: "User not found"};
+        }
+    })
+    .catch(function(err) {
       return {statusCode: 500, body: JSON.stringify(err)};
-    }
-  )
+    })
 }
 
 exports.main = main;

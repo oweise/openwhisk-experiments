@@ -15,7 +15,8 @@ async function storeDoc(doc) {
 function main(args) {
   console.log(args)
   var doc = {
-    name: args.name.last + ", " + args.name.first
+    name: args.name.last + ", " + args.name.first,
+    email: args.email
   }
   return storeDoc(doc)
   .then(
