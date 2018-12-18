@@ -1,0 +1,52 @@
+{
+	"gender" : "female",
+	"name" : {
+		"title" : "mademoiselle",
+		"first" : "fanny",
+		"last" : "roussel"
+	},
+	"location" : {
+		"street" : "7303 rue du bon-pasteur",
+		"city" : "savigny",
+		"state" : "st. gallen",
+		"postcode" : "2569"
+	},
+	"email" : "fanny.roussel@example.com",
+	"login" : {
+		"username" : "lazygoose524",
+		"password" : "030303",
+		"salt" : "Eld5khIk",
+		"md5" : "1cacd1cc3abc501e39fb556a33e1ba4e",
+		"sha1" : "532f629921d69c2d71975e9d89b777ab00639b70",
+		"sha256" : "428c6c611852bc86d9d2a1948f6da37870f0ad8c1ec2218e2650a698006907df"
+	},
+	"registered" : 1220507873,
+	"dob" : 1408250825,
+	"phone" : "(621)-240-7294",
+	"cell" : "(332)-343-6574",
+	"id" : {
+		"name" : "AVS",
+		"value" : "756.JYYZ.KLMR.53"
+	},
+	"picture" : {
+		"large" : "https://randomuser.me/api/portraits/women/91.jpg",
+		"medium" : "https://randomuser.me/api/portraits/med/women/91.jpg",
+		"thumbnail" : "https://randomuser.me/api/portraits/thumb/women/91.jpg"
+	},
+	"nat" : "CH",
+	"position" : {
+		"lat" : 6.791937,
+		"lon" : 51.2422
+	},
+	"job" : {
+		"sector" : "Finance",
+		"profession" : "Cashier"
+	},
+	"features" : {
+		"hairColor" : "brown",
+		"eyeColor" : "amber",
+		"height" : 178
+	},
+	"dateOfBirth" : "1994-05-09",
+	"vita" : "When Chuck Norris works out on the Total Gym, the Total Gym feels like it's been raped."
+}

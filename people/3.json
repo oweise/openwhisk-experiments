@@ -1,0 +1,52 @@
+{
+	"gender" : "male",
+	"name" : {
+		"title" : "mr",
+		"first" : "zachary",
+		"last" : "clarke"
+	},
+	"location" : {
+		"street" : "6821 bay view road",
+		"city" : "hamilton",
+		"state" : "southland",
+		"postcode" : "41480"
+	},
+	"email" : "zachary.clarke@example.com",
+	"login" : {
+		"username" : "redfish922",
+		"password" : "lexmark",
+		"salt" : "fZkfV77r",
+		"md5" : "d5427277355dd91af9d4167a07f7f815",
+		"sha1" : "aa49f2b40d048106888a788ccce9c0101691914f",
+		"sha256" : "31f313d5467abdce4e51736c7462bfce7332fc75543d1bc36e6b3f21c8368a70"
+	},
+	"registered" : 1015501453,
+	"dob" : 94098728,
+	"phone" : "(782)-390-8386",
+	"cell" : "(859)-364-0666",
+	"id" : {
+		"name" : "",
+		"value" : null
+	},
+	"picture" : {
+		"large" : "https://randomuser.me/api/portraits/men/86.jpg",
+		"medium" : "https://randomuser.me/api/portraits/med/men/86.jpg",
+		"thumbnail" : "https://randomuser.me/api/portraits/thumb/men/86.jpg"
+	},
+	"nat" : "NZ",
+	"position" : {
+		"lat" : 6.784501,
+		"lon" : 51.236547
+	},
+	"job" : {
+		"sector" : "Finance",
+		"profession" : "Accountant"
+	},
+	"features" : {
+		"hairColor" : "brown",
+		"eyeColor" : "green",
+		"height" : 202
+	},
+	"dateOfBirth" : "1991-10-17",
+	"vita" : "Chuck Norris has never been in a fight, ever. Do you call one roundhouse kick to the face a fight?"
+}

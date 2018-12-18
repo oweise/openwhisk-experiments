@@ -1,0 +1,52 @@
+{
+	"gender" : "male",
+	"name" : {
+		"title" : "mr",
+		"first" : "vinzenz",
+		"last" : "schenk"
+	},
+	"location" : {
+		"street" : "9165 bahnhofstraße",
+		"city" : "göttingen",
+		"state" : "saarland",
+		"postcode" : "42501"
+	},
+	"email" : "vinzenz.schenk@example.com",
+	"login" : {
+		"username" : "smallgoose415",
+		"password" : "lamont",
+		"salt" : "tk4cDaeu",
+		"md5" : "c124bc4222547820799b6e0ecf254ffd",
+		"sha1" : "30fef4cf583f72a3ae39c217dc0d75fec972a74f",
+		"sha256" : "dc1e7fcf9367f40298f7d6964b80486cc0f384b0bee81dc6917e9f712bb28f30"
+	},
+	"registered" : 1210429646,
+	"dob" : 1221527913,
+	"phone" : "0771-5266157",
+	"cell" : "0170-8191854",
+	"id" : {
+		"name" : "",
+		"value" : null
+	},
+	"picture" : {
+		"large" : "https://randomuser.me/api/portraits/men/69.jpg",
+		"medium" : "https://randomuser.me/api/portraits/med/men/69.jpg",
+		"thumbnail" : "https://randomuser.me/api/portraits/thumb/men/69.jpg"
+	},
+	"nat" : "DE",
+	"position" : {
+		"lat" : 6.791478,
+		"lon" : 51.238336
+	},
+	"job" : {
+		"sector" : "Trade",
+		"profession" : "Market analyst"
+	},
+	"features" : {
+		"hairColor" : "black",
+		"eyeColor" : "gray",
+		"height" : 176
+	},
+	"dateOfBirth" : "1985-11-03",
+	"vita" : "Chuck Norris knows the last digit of PI."
+}

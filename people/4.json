@@ -1,0 +1,52 @@
+{
+	"gender" : "male",
+	"name" : {
+		"title" : "mr",
+		"first" : "reginald",
+		"last" : "myers"
+	},
+	"location" : {
+		"street" : "5204 locust rd",
+		"city" : "brownsville",
+		"state" : "vermont",
+		"postcode" : "84217"
+	},
+	"email" : "reginald.myers@example.com",
+	"login" : {
+		"username" : "bigleopard878",
+		"password" : "streaming",
+		"salt" : "nCzvvVBA",
+		"md5" : "3de46347adc5994faef207e61f28acbc",
+		"sha1" : "3b27b27dd3ff2973b85f5a03d520256ad6028963",
+		"sha256" : "57380797d857c12fdc810bc708cc8f5cc1e68adb3823bf93781635a11204e3ae"
+	},
+	"registered" : 1418718685,
+	"dob" : 1338765460,
+	"phone" : "(962)-870-0001",
+	"cell" : "(834)-631-0651",
+	"id" : {
+		"name" : "SSN",
+		"value" : "516-43-5026"
+	},
+	"picture" : {
+		"large" : "https://randomuser.me/api/portraits/men/31.jpg",
+		"medium" : "https://randomuser.me/api/portraits/med/men/31.jpg",
+		"thumbnail" : "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+	},
+	"nat" : "US",
+	"position" : {
+		"lat" : 6.792076,
+		"lon" : 51.246341
+	},
+	"job" : {
+		"sector" : "Justice",
+		"profession" : "Lawyer"
+	},
+	"features" : {
+		"hairColor" : "brown",
+		"eyeColor" : "green",
+		"height" : 196
+	},
+	"dateOfBirth" : "1985-09-01",
+	"vita" : "Chuck Norris does not own a house. He walks into random houses and people move."
+}

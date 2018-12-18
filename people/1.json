@@ -1,0 +1,52 @@
+{
+	"gender" : "male",
+	"name" : {
+		"title" : "mr",
+		"first" : "ezra",
+		"last" : "kumar"
+	},
+	"location" : {
+		"street" : "5679 theodosia street",
+		"city" : "tauranga",
+		"state" : "hawke's bay",
+		"postcode" : "71095"
+	},
+	"email" : "ezra.kumar@example.com",
+	"login" : {
+		"username" : "brownelephant675",
+		"password" : "bama",
+		"salt" : "SHTixSnQ",
+		"md5" : "3a831a9d7f7f8ff25ff624991de75981",
+		"sha1" : "b2068a04e98db048530bfe95e6089ca4e007955f",
+		"sha256" : "11c10061ec723a380bf5b02b8490b7dc97b65b788c61743801f808e3147513e0"
+	},
+	"registered" : 1002894411,
+	"dob" : 1234566257,
+	"phone" : "(529)-478-7423",
+	"cell" : "(499)-310-6653",
+	"id" : {
+		"name" : "",
+		"value" : null
+	},
+	"picture" : {
+		"large" : "https://randomuser.me/api/portraits/men/62.jpg",
+		"medium" : "https://randomuser.me/api/portraits/med/men/62.jpg",
+		"thumbnail" : "https://randomuser.me/api/portraits/thumb/men/62.jpg"
+	},
+	"nat" : "NZ",
+	"position" : {
+		"lat" : 6.791429,
+		"lon" : 51.242669
+	},
+	"job" : {
+		"sector" : "Trade",
+		"profession" : "Logistician"
+	},
+	"features" : {
+		"hairColor" : "blond",
+		"eyeColor" : "hazel",
+		"height" : 185
+	},
+	"dateOfBirth" : "1990-08-29",
+	"vita" : "Chuck Norris protocol design method has no status, requests or responses, only commands."
+}
