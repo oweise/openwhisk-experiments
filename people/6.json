@@ -1,0 +1,52 @@
+{
+	"gender" : "female",
+	"name" : {
+		"title" : "ms",
+		"first" : "charlotte",
+		"last" : "harcourt"
+	},
+	"location" : {
+		"street" : "3600 dundas rd",
+		"city" : "southampton",
+		"state" : "alberta",
+		"postcode" : "81817"
+	},
+	"email" : "charlotte.harcourt@example.com",
+	"login" : {
+		"username" : "beautifulcat748",
+		"password" : "jonas",
+		"salt" : "nZiQkKgx",
+		"md5" : "b213b92c5c71a01ab78dfedf4e25f3f6",
+		"sha1" : "4b5f7de1f6c6275027408583c3184e2e1b2e9997",
+		"sha256" : "ddd5539d2d232ac799337db667ed7527c38b7f7bfb1aa0545d9efc94e8604b6c"
+	},
+	"registered" : 1084539762,
+	"dob" : 157131111,
+	"phone" : "681-396-0784",
+	"cell" : "247-728-7095",
+	"id" : {
+		"name" : "",
+		"value" : null
+	},
+	"picture" : {
+		"large" : "https://randomuser.me/api/portraits/women/71.jpg",
+		"medium" : "https://randomuser.me/api/portraits/med/women/71.jpg",
+		"thumbnail" : "https://randomuser.me/api/portraits/thumb/women/71.jpg"
+	},
+	"nat" : "CA",
+	"position" : {
+		"lat" : 6.787564,
+		"lon" : 51.245829
+	},
+	"job" : {
+		"sector" : "Trade",
+		"profession" : "Purchaser"
+	},
+	"features" : {
+		"hairColor" : "brown",
+		"eyeColor" : "green",
+		"height" : 161
+	},
+	"dateOfBirth" : "1991-07-15",
+	"vita" : "Chuck Norris uses 8'x10' sheets of plywood as toilet paper."
+}
