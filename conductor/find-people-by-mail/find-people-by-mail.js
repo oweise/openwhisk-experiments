@@ -10,7 +10,7 @@ async function loadDoc(email) {
   const db = await client.db('users');
   return await db.collection('users').findOne({
     "$and": [
-      {"name.email": email}
+      {"email": email}
     ]
   });
 }

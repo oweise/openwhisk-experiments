@@ -25,7 +25,6 @@ function main(args) {
           body: "Unknown step"
         };
     }
-
 }
 
 function findStep(params) {
@@ -46,7 +45,7 @@ function findStep(params) {
   else {
     return {
       statusCode: 400,
-      body: "Did not find valid search params"
+      body: {error: "Did not find valid search params"}
     }
   }
 }
@@ -62,7 +61,7 @@ function storeStep(params) {
   else {
     return {
       statusCode: 404,
-      body: "User not found"
+      body: {error: "User not found"}
     }
   }
 }
@@ -71,7 +70,8 @@ function webAnswer(params) {
   return {
     body: {
       msg: "Document found and stored",
-      docId: params.doc._id
+      docId: params.doc._id,
+      name: params.doc.name
     }
   }
 }
