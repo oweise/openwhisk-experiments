@@ -1,0 +1,27 @@
+packages:
+  web-action-conductor:
+    version: 1.0
+    license: Apache-2.0
+    actions:
+      find-people-by-name:
+        function: find-people-by-name.zip
+        runtime: 'nodejs:8'
+        inputs:
+          first:
+            type: string
+          last:
+            type: string
+      find-people-by-mail:
+        function: find-people-by-mail.zip
+        runtime: 'nodejs:8'
+        inputs:
+          email:
+            type: string
+      store-people:
+        function: store-people.zip
+        runtime: 'nodejs:8'
+      find-and-store-people:
+        function: conductor.zip
+        runtime: 'nodejs:8'
+        web: yes
+        conductor: yes
