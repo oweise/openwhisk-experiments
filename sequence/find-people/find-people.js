@@ -27,7 +27,7 @@ function main(args) {
         }
     })
     .catch(function(err) {
-      return {statusCode: 500, body: JSON.stringify(err)};
+      return {error: JSON.stringify(err)};
     })
 }
 

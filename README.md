@@ -27,7 +27,7 @@ Execute from folder "web-action".
 ### Upload action
 ```
 wsk package create web-action
-wsk action create web-action/receive-people receive-people.js --web yes
+wsk action update web-action/receive-people receive-people.js --web yes
 ```
 ### Call action
 ```
@@ -66,8 +66,15 @@ Execute from folder "sequence".
 ```
 
 ### Call action
+
+Action searching and storing a user:
+
 ```
 curl -v --insecure -X POST   https://<host>/api/v1/web/whisk.system/web-action-sequence/find-and-store-people   -H 'Content-Type: application/json' --data @query1.json
+```
+
+Action failing because of unknown user:
+```
 curl -v --insecure -X POST   https://<host>/api/v1/web/whisk.system/web-action-sequence/find-and-store-people   -H 'Content-Type: application/json' --data @query2.json
 ```
 
@@ -82,7 +89,23 @@ Execute from folder "conductor".
 ```
 
 ### Call action
+
+Action searching a user by first/last name and storing it:
 ```
-curl -v --insecure -X POST   https://<host>/api/v1/web/whisk.system/web-action-sequence/find-and-store-people   -H 'Content-Type: application/json' --data @query1.json
-curl -v --insecure -X POST   https://<host>/api/v1/web/whisk.system/web-action-sequence/find-and-store-people   -H 'Content-Type: application/json' --data @query2.json
+curl -v --insecure -X POST   https://<host>/api/v1/web/whisk.system/web-action-conductor/find-and-store-people   -H 'Content-Type: application/json' --data @query1.json
+```
+
+Action searching a user by mail address and storing it:
+```
+curl -v --insecure -X POST   https://<host>/api/v1/web/whisk.system/web-action-conductor/find-and-store-people   -H 'Content-Type: application/json' --data @query2.json
+```
+
+Action failing because of unknown user:
+```
+curl -v --insecure -X POST   https://<host>/api/v1/web/whisk.system/web-action-conductor/find-and-store-people   -H 'Content-Type: application/json' --data @query3.json
+```
+
+Action failing because of invalid search params:
+```
+curl -v --insecure -X POST   https://<host>/api/v1/web/whisk.system/web-action-conductor/find-and-store-people   -H 'Content-Type: application/json' --data @query4.json
 ```
